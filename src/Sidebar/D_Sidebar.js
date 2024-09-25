@@ -6,12 +6,8 @@ import D_CustomDrawer from "./D_CustomDrawer";
 import Dhome from "../Delivery Person/Dhome";
 import Feed from "../Postlogin/Delivery Person Screens/Feed";
 import Deliveries from "../Postlogin/Delivery Person Screens/Deliveries";
-//import Lang from "../Postlogin/Delivery Person Screens/Lang";
-//import Setting from "../Postlogin/Delivery Person Screens/Setting";
 import Helep from "../Postlogin/Delivery Person Screens/Helep";
 import Dprofile from "../Postlogin/Delivery Person Screens/Dprofile";
-//import { Octicons } from "@expo/vector-icons";
-//import { MaterialIcons } from "@expo/vector-icons";
 import Wallet from "../Postlogin/Delivery Person Screens/Wallet";
 
 const D_Sidebar = () => {
