@@ -20,7 +20,6 @@ export const AuthProvider = ({ children, navigation }) => {
   //Taking the mobile number from the user
   const mobilenum = (mobile) => {
     Setmobile(mobile);
-    //console.log(mobile);
   };
 
   const JobId = (jobid) => {
@@ -50,7 +49,6 @@ export const AuthProvider = ({ children, navigation }) => {
           setDeliveryAccess(userRegister.token.access);
           AsyncStorage.setItem("UserRegister", JSON.stringify(userRegister));
           AsyncStorage.setItem("DeliveryAccess", userRegister.token.access);
-          //console.log(userRegister.status);
           alert("Regsitered!");
           SetIsLoading(false);
         }
@@ -136,7 +134,6 @@ export const AuthProvider = ({ children, navigation }) => {
         }
       )
       .then((res) => {
-        //console.log(res.data.status.message);
         let userInfo = res.data;
         setUserInfo(userInfo);
         SetUser(userInfo.data.user_type);
@@ -208,12 +205,10 @@ export const AuthProvider = ({ children, navigation }) => {
     axios
       .get(`API_URl/otp/?mobile_number=${"91" + mobile_number}`)
       .then((res) => {
-        //console.log(mobile_number);
         let otptoken = res.data.data.token;
         SetOtpToken(otptoken);
         SetIsLoading(false);
         alert("OTP Sent!");
-        //console.log(res.data.data.token);
       })
       .catch((e) => {
         console.log(e);
