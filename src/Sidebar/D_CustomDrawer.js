@@ -1,8 +1,5 @@
 import { View, Text, Image, ImageBackground, Dimensions } from "react-native";
-import {
-  DrawerContentScrollView,
-  DrawerItemList,
-} from "@react-navigation/drawer";
+import { DrawerContentScrollView, DrawerItemList } from "@react-navigation/drawer";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import React, { useContext } from "react";
 import { Authcontext } from "../../api/Authcontext";
