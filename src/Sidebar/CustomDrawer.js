@@ -7,10 +7,7 @@ import {
   Dimensions,
 } from "react-native";
 import React, { useContext } from "react";
-import {
-  DrawerContentScrollView,
-  DrawerItemList,
-} from "@react-navigation/drawer";
+import { DrawerContentScrollView, DrawerItemList } from "@react-navigation/drawer";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { Authcontext } from "../../api/Authcontext";
 const { height, width } = Dimensions.get("window");
