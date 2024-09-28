@@ -8,7 +8,6 @@ import { Feather } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
 import { Fontisto } from "@expo/vector-icons";
-//import JobApplicants from "../Postlogin/Proprietor Screens/JobApplicants";
 import PostedJobs from "../Postlogin/Proprietor Screens/PostedJobs";
 import Profile from "../Postlogin/Proprietor Screens/Profile";
 
