@@ -10,7 +10,6 @@ import {
 } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
 import { IconButton } from "react-native-paper";
-//import { API_URl } from "@env";
 import axios from "axios";
 import Spinner from "react-native-loading-spinner-overlay";
 import { Authcontext } from "../../../api/Authcontext";
@@ -31,7 +30,6 @@ export default function Deliveries({ navigation }) {
         },
       })
       .then((res) => {
-        // console.log(res.data.results);
         setData(res.data.results);
         SetLoading(false);
       })
