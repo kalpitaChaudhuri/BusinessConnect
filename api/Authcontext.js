@@ -117,7 +117,7 @@ export const AuthProvider = ({ children, navigation }) => {
     }
   };
 
-  //Login Authentication,
+  //Login Authentication
   const login = (mobile_number, password) => {
     SetIsLoading(true);
     axios
@@ -149,7 +149,7 @@ export const AuthProvider = ({ children, navigation }) => {
       });
   };
 
-  //OTP Login Authentication,
+  //OTP Login Authentication
   const OTPlogin = (mobilenumber, otp) => {
     SetIsLoading(true);
     axios
