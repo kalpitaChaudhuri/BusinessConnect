@@ -4,7 +4,6 @@ import Prelog from "../src/Prelog";
 import Login from "../src/Login/Login";
 import React, { useContext } from "react";
 import { Authcontext } from "../api/Authcontext";
-//import Home from "../src/Postlogin/Home";
 import Jobpost from "../src/Postlogin/Proprietor Screens/Jobpost";
 import Sidebar from "../src/Sidebar/Sidebar";
 import D_Sidebar from "../src/Sidebar/D_Sidebar";
