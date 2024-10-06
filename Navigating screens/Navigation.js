@@ -19,8 +19,6 @@ import OTPLogin from "../src/Login/OTPLogin";
 import History from "../src/Postlogin/Delivery Person Screens/History";
 import Deliveryjobdetails from "../src/Delivery Person/Deliveryjobdetails";
 
-
-
 export default function Navigation() {
   const Stack = createNativeStackNavigator();
   const { userToken, userInfo } = useContext(Authcontext);
