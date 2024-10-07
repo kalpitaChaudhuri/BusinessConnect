@@ -59,7 +59,7 @@ export default function ResetPassword({ navigation }) {
         activeOutlineColor="red"
         onChangeText={(value) => enterOtp(value)}
       />
-
+          
       {/* <TextInput
         style={styles.input1}
         mode="outlined"
@@ -71,7 +71,7 @@ export default function ResetPassword({ navigation }) {
         activeOutlineColor="red"
         onChangeText={(value) => setMobilenumber(value)}
       /> */}
-
+          
       <TextInput
         style={styles.input1}
         outlineColor="red"
