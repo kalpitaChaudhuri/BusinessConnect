@@ -56,7 +56,7 @@ export default function CustomDrawer(props) {
 
         <View
           style={{ flex: 1, backgroundColor: "white", paddingTop: 20, top: 10 }}
-        >
+      >
           <DrawerItemList {...props} />
         </View>
 
@@ -67,7 +67,6 @@ export default function CustomDrawer(props) {
       <View style={{ padding: 40 }}>
         <TouchableOpacity
           style={{
-            //position: "relative",
             alignItems: "center",
             justifyContent: "center",
             padding: 10,
