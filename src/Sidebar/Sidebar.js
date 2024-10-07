@@ -39,6 +39,7 @@ const Sidebar = () => {
           ),
         }}
       />
+
       {/* <Drawer.Screen
         name="Job Applicants"
         component={JobApplicants}
@@ -53,6 +54,7 @@ const Sidebar = () => {
           ),
         }}
       /> */}
+
       <Drawer.Screen
         name="Posted jobs"
         component={PostedJobs}
