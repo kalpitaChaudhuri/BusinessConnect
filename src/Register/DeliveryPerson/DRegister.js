@@ -143,14 +143,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   textinput: {
-    //borderWidth: 1,
-
     borderColor: "#777",
     padding: 2,
     margin: 14,
     width: width / 1.2,
     height: 50,
-    //elevation: 5,
     backgroundColor: "white",
   },
   dropdown: {
