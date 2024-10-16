@@ -45,7 +45,6 @@ export default function Deliveryjobdetails({ route }) {
       .then((res) => {
         setData(res.data);
         JobId(route.params.paramKey);
-        //console.log(res.data.data.name);
       })
       .catch((err) => {
         alert("No data found");
