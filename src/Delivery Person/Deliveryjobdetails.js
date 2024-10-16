@@ -28,7 +28,6 @@ export default function Deliveryjobdetails({ route }) {
     isLoading,
   } = useContext(Authcontext);
   const jobtoken = userInfo.token.access;
-  //const pickuplong = data.data.pickup_location.coordinates[1];
   const [propotp, SetPropotptoken] = useState(null);
   const [data, setData] = useState(null);
   const [otp, setOtp] = useState(null);
