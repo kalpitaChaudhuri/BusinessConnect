@@ -13,7 +13,6 @@ import React, { useContext, useEffect, useState } from "react";
 import { Button, IconButton } from "react-native-paper";
 import { Authcontext } from "../../api/Authcontext";
 import axios from "axios";
-//import { API_URl } from "@env";
 const { height, width } = Dimensions.get("window");
 
 export default function Home({ navigation }) {
