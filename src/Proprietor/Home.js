@@ -56,7 +56,6 @@ export default function Home({ navigation }) {
   };
 
   const CancelJob = () => {
-    //console.log(jobid);
     axios
       .post(
         `API_URl/cancel-job/`,
