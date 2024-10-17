@@ -49,7 +49,6 @@ export default function Home({ navigation }) {
         let livejob = res.data;
         SetLiveJob(livejob);
         Setjobid(livejob.data.job_id);
-        //console.log(livejob.data.job_id);
       })
       .catch((err) => {
         console.log(err);
