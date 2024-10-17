@@ -47,7 +47,6 @@ export default function Home({ navigation }) {
       })
       .then((res) => {
         let livejob = res.data;
-        //console.log(livejob);
         SetLiveJob(livejob);
         Setjobid(livejob.data.job_id);
         //console.log(livejob.data.job_id);
