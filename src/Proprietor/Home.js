@@ -30,7 +30,6 @@ export default function Home({ navigation }) {
         },
       })
       .then((res) => {
-        //console.log(res.data.count);
         let shopinfo = res.data;
         setShopinfo(shopinfo);
       })
