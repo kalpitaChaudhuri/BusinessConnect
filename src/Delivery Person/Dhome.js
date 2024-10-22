@@ -44,13 +44,10 @@ export default function Dhome({ navigation }) {
         },
       })
       .then((res) => {
-        //console.log(res.data)
         let cInfo = res.data;
         setcInfo(cInfo);
-        //console.log(cInfo)
       })
       .catch((err) => {
-        //console.log(err)
         alert("not found");
       });
   };
