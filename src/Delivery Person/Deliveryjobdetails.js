@@ -294,7 +294,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "white",
-    // alignItems: "center",
   },
   product1: {
     width: width / 1.2,
